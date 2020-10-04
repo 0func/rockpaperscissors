@@ -1,0 +1,113 @@
+* {
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+}
+nav {
+    background-color: rgb(230, 230, 231);
+    display: grid;
+    text-align: center;
+    background-color:#00587a;
+    color: rgba(150, 153, 167, 0.904);
+    justify-content: center;
+}
+
+
+body {
+    background-color: #0f3057;
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: flex;
+    color: snow;
+    justify-content: center;
+    text-align: center;
+    background-color: slategray;
+    background-color:#00587a;
+
+}
+
+p {
+    font-size:  30px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(179, 200, 218);
+}
+
+/*buttons*/
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+#buttons :hover {
+    color: slategray;
+}
+
+#rockButton {
+    height: 50px;
+    width: 90px;
+    font-size: larger;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#paperButton {
+    height: 50px;
+    font-size: larger;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: fit-content;
+}
+#scissorsButton {
+    height: 50px;
+    font-size: larger;
+    width: fit-content;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#reset :hover {
+    color: red;
+}
+
+/** footer * Contains RESET button**/
+
+#footer {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    height: 2.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/** results box **/
+div .textContainer {
+    border-radius: 5px;
+    text-align: left;
+    width: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #e7e7de;
+    color: rgb(17, 13, 13);
+}
+
+#scoreContainer {
+    color: white;
+    text-align: center;
+}
+
+#textContainer li {
+    margin: 10px auto;
+}
